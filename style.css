@@ -1,0 +1,138 @@
+body{
+    font-family: sans-serif;
+}
+
+/* Start Section 1 Style*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    
+}
+/* End Section 1 Style*/
+.nav{
+    border-bottom: 1px solid grey;
+}
+/* Start Section 2 Style*/
+.section-1{
+    background-image: url(background\ picture.jpg);
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-2{
+    text-align: center;
+    color: blue;
+}
+.section-2 .box{
+    padding-top: 100px;
+}
+.section-2 .col p{
+color: white;
+}
+
+/* End Section 2 Style*/
+
+/* Start Section 3 Style */
+
+.section-3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-3 .col{
+    flex-basis: 30%;
+    text-align: center;
+}
+@media (min-width:767px){
+    .section-3 .col{
+        flex-basis: 100%;
+    }
+}
+@media (min-width:991px){
+    .section-3 .col{
+        flex-basis: 47%;
+    }
+}
+.section-3 .col i{
+    font-size: 45px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.section-3 .col h2{
+    font-weight: bold;
+}
+
+.section-3 .col p{
+    color: grey;
+}
+
+/* End Section 3Style*/
+
+.section-4{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .section-4{
+        flex-direction: column;
+    }
+}
+
+.section-4 .col img{
+    width: 500px;
+    max-width: 100%;
+}
+
+.section-4 .col{
+    flex-basis: 45%;
+    text-align: center;
+}
+
+ .main-head{
+    font-size: 52px;
+    text-align: center;
+    color: blue;
+    letter-spacing: -3px;
+    border-bottom: 6px solid green;
+    width: 160px;
+    margin: auto;
+ }
+
+ .section-5{
+     padding-left: 7%;
+     padding-right: 7%;
+     text-align: center;
+    }
+    
+    .section-5 .row{
+        display: flex;
+        padding-top: 50px;
+        
+ }
+ .section-5 .col p{
+ text-align: center;
+ }
+
+ .section-5 .row .col{
+flex-basis: 33%;
+ }
+
+ .section-6{
+    
+ }
